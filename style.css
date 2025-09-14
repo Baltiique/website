@@ -28,3 +28,29 @@ font-weight: 900;
   display: flex;
   gap: 16px;
 }
+
+.header ul a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.content {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+}
+
+
+.content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+
+.content h1 {
+  text-align: left;
+  font-size: 40px;
+}
