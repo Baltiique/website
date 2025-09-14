@@ -12,12 +12,12 @@ body {
 display: flex;
 background-color: #1f2937;
 color: white;
-padding: 6px;
-justify-content: space-around;
+padding: 6px 200px;
+justify-content: space-between;
 align-items: center;
-height: 72px;
 font-size: 32px;
 font-weight: 900;
+margin: 0;
 }
 
 .header ul {
@@ -34,23 +34,37 @@ font-weight: 900;
   text-decoration: none;
 }
 
-
 .content {
-  display: flex;
   background-color: #1f2937;
+  display: flex;
   color: white;
+  min-height: 400px; /* Increase this value as needed */
+  align-items: center; /* Keeps h1 at the top */
+  justify-content: flex-start;
+  padding: 0 200px;
 }
 
+.top-image {
+width: 500px;
+height: auto;
+object-fit: contain;
+margin-left: -200px;
 
-.content img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 150px;
-  height: 150px;
 }
 
 .content h1 {
-  text-align: left;
+  align-self: flex-start;
   font-size: 40px;
+  margin-top: 0px;
+}
+
+h1, h2, p {
+  margin: 0px;
+}
+
+.text p {
+  display: flex;
+flex-direction: column;
+gap: 10px;
+max-width: 60%;
 }
