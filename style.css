@@ -1,0 +1,30 @@
+body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+   display: flex;
+  flex-direction: column;
+}
+
+
+
+.header {
+display: flex;
+background-color: #1f2937;
+color: white;
+padding: 6px;
+justify-content: space-around;
+align-items: center;
+height: 72px;
+font-size: 32px;
+font-weight: 900;
+}
+
+.header ul {
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
